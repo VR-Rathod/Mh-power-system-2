@@ -1,0 +1,309 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(Assets/5134336.jpg);
+  }
+
+  /* Hide the default scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Add a custom scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+/* Add a custom scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 10px;
+}
+
+/* Add a hover effect to the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666363;
+}
+
+/* Add a custom scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: #5a4141;
+}
+
+
+  h1{
+    text-align: center;
+  }
+
+  .work #Hadding {
+    text-align: center;
+  }
+
+  .containerbox-1 {
+    width: 90%;
+    margin: 28px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    border-radius: 28px;
+    position: relative;
+    text-align: justify;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 20px 10px rgba(10, 10, 10, 0.5);
+  }
+
+  .containerbox-2 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 9px;
+    border: 1px solid #ccc;
+    border-radius: 28px;
+    text-align: justify;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }  
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Main Content Styles */
+  .work {
+    padding: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Home Section Styles */
+  .home {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: px;
+    margin: 7px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);    
+  }
+  
+  .home-content {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  
+  .home-content h2 {
+    font-size: 40px;
+  }
+  
+  .home-content h2 span {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+  
+  .home-content ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .home-content ul li span {
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+    color: black;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: larger;
+    font-weight: bold;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .home-content .cta-button {
+    text-transform: uppercase;
+    text-decoration: underline black;
+    background: linear-gradient(to right, #141e30, #2c3e50);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .home-image {
+    flex-basis: 24%;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .home-image img {
+    justify-content: center;
+    padding: 28px;
+    margin: 39px;
+    width: 70%;
+    height: 90%;
+    border-radius: 5px;
+    border: 3px solid black;
+  }
+  
+  #about {
+    margin: 70px;
+    height: 50dvh;
+    background: url(Assets/covor2.jpg) ;
+    background-color: #f9f9f9;
+    border-radius: 7%;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #about h2 {
+    padding-top: 51px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  
+  #about .about-pera {
+    display: inline-table;
+    max-width: 60%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  
+  #contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    font-size: 1.1rem;
+  }
+  
+  .manager-info,
+  .director-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .manager-info img,
+  .director-info img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin-right: 30px;
+  }
+  
+  .manager-info .info,
+  .director-info .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .manager-info h4,
+  .director-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .manager-info p,
+  .director-info p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  
